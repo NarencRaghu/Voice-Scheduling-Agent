@@ -2,12 +2,12 @@
 
 A real-time voice AI assistant that initiates a natural conversation, collects meeting details (name, date, time, title), confirms the information with the user, and autonomously books a Google Calendar event.
 
-## 🚀 Deployed Application & Demo
+## Deployed Application & Demo
 
 - **Live Agent URL:** [https://voice-scheduling-agent-iota.vercel.app/](https://voice-scheduling-agent-iota.vercel.app/)
 - **Demo Video:** [https://www.loom.com/share/ed99913a2de740b197af15c10c3e0394](https://www.loom.com/share/ed99913a2de740b197af15c10c3e0394)
 
-## 🧪 How to Test the Agent
+## How to Test the Agent
 
 1. Visit the **Live Agent URL** linked above.
 2. Click the microphone/phone icon in the bottom right corner to start the call.
@@ -19,7 +19,7 @@ A real-time voice AI assistant that initiates a natural conversation, collects m
 
 ---
 
-## 📅 Calendar Integration Overview
+## Calendar Integration Overview
 
 This agent leverages the Google Calendar API via a Google Service Account to handle scheduling autonomously:
 1. **Extraction:** The voice agent uses the LLM's function-calling capabilities to extract the `name`, `date`, `time`, and `title` from the natural language conversation.
@@ -28,7 +28,7 @@ This agent leverages the Google Calendar API via a Google Service Account to han
 
 ---
 
-## 💻 Local Development Guide
+## Local Development Guide
 
 To adhere to security best practices, sensitive files such as the Google Service Account Key (`credentials.json`) and environment variables (`.env`) have been excluded from this repository. 
 
@@ -81,7 +81,7 @@ To allow the application to write to a Google Calendar, you must provide Service
 }
 ```
 
-> **⚠️ CRITICAL STEP:** A Service Account cannot automatically access your personal calendar. You must open your Google Calendar settings, select the specific calendar you want to use, click **"Share with specific people"**, and add the `client_email` address from your `credentials.json` file. Ensure you grant it **"Make changes to events"** permissions.
+> **CRITICAL STEP:** A Service Account cannot automatically access your personal calendar. You must open your Google Calendar settings, select the specific calendar you want to use, click **"Share with specific people"**, and add the `client_email` address from your `credentials.json` file. Ensure you grant it **"Make changes to events"** permissions.
 
 ### 4. Start the Application
 
