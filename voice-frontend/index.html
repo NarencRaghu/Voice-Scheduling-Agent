@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voice Scheduling Agent</title>
+    <style>
+        body { font-family: sans-serif; text-align: center; padding-top: 50px; }
+    </style>
+</head>
+<body>
+    <h1>Voice Scheduling Agent</h1>
+    <p>Click the phone icon at the bottom to start the conversation with the scheduling agent.</p>
+    
+    <script>
+      (function(d, t) {
+        var g = document.createElement(t),
+        s = d.getElementsByTagName(t)[0];
+        g.src = "https://cdn.jsdelivr.net/gh/VapiAI/html-script-tag@latest/dist/assets/index.js";
+        g.defer = true;
+        g.async = true;
+        s.parentNode.insertBefore(g, s);
+  
+        g.onload = function() {
+          window.vapiSDK.run({
+            apiKey: "aefb575d-cb1c-4980-b432-e5a265d3c8df", // Get this from Vapi Dashboard -> API Keys
+            assistant: "35d30217-6607-44af-8806-0e17b51b064d", // Get this from Vapi Dashboard -> Assistants
+          });
+        };
+      })(document, "script");
+    </script>
+</body>
+</html>
