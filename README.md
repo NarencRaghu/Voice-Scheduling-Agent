@@ -6,14 +6,14 @@ A real-time voice AI assistant that initiates a conversation, collects meeting d
 - **Agent URL:** [https://voice-scheduling-agent-iota.vercel.app/](https://voice-scheduling-agent-iota.vercel.app/)
 - **Demo Video:** 
 
-## 🛠️ How to Test the Agent
+## How to Test the Agent
 1. Visit the deployed Agent URL above.
 2. Click the microphone/phone icon in the bottom right corner to start the call.
 3. Provide a name, a date (e.g., "next Friday"), and a time (e.g., "2 PM"). 
 4. Confirm the details when prompted. The agent will trigger the backend and book the event.
 5. **Note:** Since the calendar is private, please refer to the **Demo Video** to see the event creation in action.
 
-## 🛡️ Security & Environment
+## Security & Environment
 To follow security best practices, the `credentials.json` (Google Service Account Key) and `.env` files have been excluded from this repository via `.gitignore`. 
 
 ### Required Local Files
