@@ -1,4 +1,4 @@
-# Voice Scheduling Agent 🤖
+# Voice Scheduling Agent
 
 A real-time voice AI assistant that initiates a conversation, collects meeting details (name, date, time, title), confirms the information, and autonomously books a Google Calendar event.
 
