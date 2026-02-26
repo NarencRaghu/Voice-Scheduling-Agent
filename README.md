@@ -4,7 +4,7 @@ A real-time voice AI assistant that initiates a conversation, collects meeting d
 
 ## Deployed Application
 - **Agent URL:** [https://voice-scheduling-agent-iota.vercel.app/](https://voice-scheduling-agent-iota.vercel.app/)
-- **Demo Video:** 
+- **Demo Video:** [https://www.loom.com/share/ed99913a2de740b197af15c10c3e0394](https://www.loom.com/share/ed99913a2de740b197af15c10c3e0394)
 
 ## How to Test the Agent
 1. Visit the deployed Agent URL above.
